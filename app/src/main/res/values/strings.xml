@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cars</string>
+    <string name="new_car">New car</string>
+    <string name="model_sort">Model sort</string>
+    <string name="price_sort">Price sort</string>
+    <string name="color_sort">Color sort</string>
+    <string name="price">Price</string>
+    <string name="model">Model</string>
+    <string name="mark">Mark</string>
+    <string name="year">Year</string>
+    <string name="filter">Filter</string>
+    <string name="add_car">Add car</string>
+</resources>

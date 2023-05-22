@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp">
+
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_car"/>
+
+    <Spinner
+        android:id="@+id/car_mark"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="35sp"
+
+        android:hint="@string/mark"/>
+
+
+    <Spinner
+        android:id="@+id/car_model"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="25sp"
+        android:hint="@string/model"
+        />
+
+    <Spinner
+        android:id="@+id/car_year"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="25sp"
+        android:inputType="number"
+        android:hint="@string/year"
+        />
+
+    <EditText
+        android:id="@+id/car_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/price"
+        android:textSize="30sp"
+        android:inputType="number"
+        android:maxLength="15"/>
+
+
+</LinearLayout>

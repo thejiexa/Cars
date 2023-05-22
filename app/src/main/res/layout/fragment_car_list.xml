@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/mark_filter"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:hint="@string/mark"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/model_filter"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:hint="@string/model"
+                android:textSize="15sp" />
+
+
+
+        </LinearLayout>
+
+<!--        <Button-->
+
+<!--            android:id="@+id/filter_button"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@color/black"-->
+<!--            android:text="@string/filter">-->
+
+<!--        </Button>-->
+
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/car_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
+
+
+
+
+
+    <!--<menu xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+    <!--<item-->
+    <!--    android:id="@+id/new_car"-->
+    <!--    android:icon="@android:drawable/ic_menu_add"-->
+    <!--    android:title="@string/new_car"-->
+    <!--    app:showAsAction="ifRoom|withText"/>-->
+    <!--</menu>-->
